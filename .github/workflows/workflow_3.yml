@@ -1,0 +1,11 @@
+name: Workflow 3
+
+on: [push]
+
+jobs:
+  do_something:
+    name: Successful job
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "workflow 3 hello world"
